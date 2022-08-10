@@ -1,0 +1,15 @@
+/home/student/C#Projects/Hello/bin/Debug/net6.0/Hello
+/home/student/C#Projects/Hello/bin/Debug/net6.0/Hello.deps.json
+/home/student/C#Projects/Hello/bin/Debug/net6.0/Hello.runtimeconfig.json
+/home/student/C#Projects/Hello/bin/Debug/net6.0/Hello.dll
+/home/student/C#Projects/Hello/bin/Debug/net6.0/Hello.pdb
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.csproj.AssemblyReference.cache
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.GeneratedMSBuildEditorConfig.editorconfig
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.AssemblyInfoInputs.cache
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.AssemblyInfo.cs
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.csproj.CoreCompileInputs.cache
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.dll
+/home/student/C#Projects/Hello/obj/Debug/net6.0/refint/Hello.dll
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.pdb
+/home/student/C#Projects/Hello/obj/Debug/net6.0/Hello.genruntimeconfig.cache
+/home/student/C#Projects/Hello/obj/Debug/net6.0/ref/Hello.dll

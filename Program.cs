@@ -151,3 +151,5 @@ static int GetMin(int num_one, int num_two, int num_three)
 
     return results;
 }
+
+// Classes and Objects

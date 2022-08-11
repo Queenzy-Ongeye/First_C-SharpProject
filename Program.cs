@@ -8,7 +8,7 @@ Console.WriteLine("  /   |");
 Console.WriteLine(" /____|");
 
 
-//  Variables
+// Variables
 string charName = "John Smith";
 int charAge = 50;
 
@@ -77,8 +77,20 @@ static void GreetUser(string name, int age)
 
 // Return Statements
 Console.WriteLine(cuboid(6));
-static int cuboid(int num){
+static int cuboid(int num)
+{
     int result = num * num * num;
     return result;
 
+}
+
+// if Statements
+bool isFeMale = false;
+if (isFeMale)
+{
+    Console.WriteLine("You are a female");
+}
+else
+{
+    Console.WriteLine("You are a male");
 }

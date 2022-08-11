@@ -86,11 +86,68 @@ static int cuboid(int num)
 
 // if Statements
 bool isFeMale = false;
-if (isFeMale)
+bool isTall = false;
+if (isFeMale && isTall)
 {
-    Console.WriteLine("You are a female");
+    Console.WriteLine("You are a tall female");
 }
 else
 {
-    Console.WriteLine("You are a male");
+    Console.WriteLine("You are a tall male");
+}
+
+if (isFeMale || isTall)
+{
+    Console.WriteLine("You are a tall female");
+}
+else if (isFeMale && !isTall)
+{
+    Console.WriteLine("You are a short female");
+
+}
+else if (!isFeMale && isTall)
+{
+    Console.WriteLine("You are not a female and not tall");
+}
+else
+{
+    Console.WriteLine("You are not tall at all");
+}
+
+// if Statements cont...
+Console.WriteLine(GetMax(5, 50));
+static int GetMax(int num_one, int num_two)
+{
+    int result;
+
+    if (num_one > num_two)
+    {
+        result = num_one;
+    }
+    else
+    {
+        result = num_two;
+    }
+    return result;
+}
+
+Console.WriteLine(GetMin(500, 60, 5000));
+static int GetMin(int num_one, int num_two, int num_three)
+{
+    int results;
+
+    if (num_one < num_two && num_one > num_three)
+    {
+        results = num_one;
+    }
+    else if (num_three < num_two && num_three <= num_one)
+    {
+        results = num_three;
+    }
+    else
+    {
+        results = num_two;
+    }
+
+    return results;
 }

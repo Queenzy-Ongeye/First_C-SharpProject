@@ -153,3 +153,13 @@ static int GetMin(int num_one, int num_two, int num_three)
 }
 
 // Classes and Objects
+Book book_one = new Book("Harry Potter", "JK Rowling", 500);
+Console.WriteLine(book_one.title);
+
+Book book_two = new Book("Lord Of The Rings","Tolkein",650 );
+Console.WriteLine(book_two.author);
+
+book_one.title = "The Hobbit";
+Console.WriteLine(book_one.title);
+
+Book book_three = new Book();
